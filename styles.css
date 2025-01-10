@@ -7,7 +7,6 @@
 
 body {
     padding: 4% 10%;
-    font-family: arial, sans-serif;
     background-color: #F1F1F3;
 }
 
@@ -44,6 +43,8 @@ a {
 }
 .banner-content {
     max-width: 40%;
+    font-size: 24px;
+    align-items: center;
 }
 h1 {
     font-size: small;
@@ -52,6 +53,17 @@ h1 {
 #banner-content {
     font-size: larger;
     color: #0E0E0E;
+    font-family: fira-sans;
+    font-weight: bold;
+}
+.banner-content button {
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 10px;
+    margin: 6px;
+    padding: 6px;
+    border: 1px solid #006A50;
+    border-radius: 4%;
 }
 #hero-image {
     max-width: 40%;
