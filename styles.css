@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 4% 10%;
+    font-family: arial, sans-serif;
+    background-color: #F1F1F3;
+}
+
+    /* Header */
+header {
+    height: 40%;
+}
+nav {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+h5 {
+    font-size: 18px;
+}
+.sign-in {
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8%;
+}
+a {
+    color: #006A50;
+    font-size: 12px;
+    margin: 4px;
+    padding: 2px;
+}
+.banner {
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding: 8% 5%;
+}
+.banner-content {
+    max-width: 40%;
+}
+h1 {
+    font-size: small;
+    color: #0e0e0ea1;
+}
+#banner-content {
+    font-size: larger;
+    color: #0E0E0E;
+}
+#hero-image {
+    max-width: 40%;
+}
+/* Pillar Section */
+.pillars-section
+.pillar-container {
+    display: flex;
+    justify-content: space-between;
+}
+.pillar {
+    width: 22%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    margin-bottom: 20px;
+}
+.pillar img {
+    max-width: 40px;
+    margin-bottom: 10px;
+}
+.pillar h4 {
+    font-size: 18px;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+}
+.pillar p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
