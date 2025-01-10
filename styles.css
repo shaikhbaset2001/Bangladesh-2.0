@@ -8,6 +8,7 @@
 body {
     padding: 4% 10%;
     background-color: #F1F1F3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
     /* Header */
@@ -18,9 +19,9 @@ nav {
     height: 10%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
-h5 {
+nav h5 {
     font-size: 18px;
 }
 .sign-in {
@@ -28,29 +29,30 @@ h5 {
     border: 1px solid #006A50;
     border-radius: 8%;
 }
-a {
+.sign-in a {
     color: #006A50;
     font-size: 12px;
-    margin: 4px;
-    padding: 2px;
+    margin: 6px;
+    padding: 6px;
 }
 .banner {
     background-color: #C6E4D6;
     display: flex;
     justify-content: space-between;
-    margin-top: 8px;
+    margin-top: 16px;
     padding: 8% 5%;
+    margin-bottom: 16px;
 }
 .banner-content {
     max-width: 40%;
     font-size: 24px;
     align-items: center;
 }
-h1 {
+.banner-content h1 {
     font-size: small;
     color: #0e0e0ea1;
 }
-#banner-content {
+.banner-content p {
     font-size: larger;
     color: #0E0E0E;
     font-family: fira-sans;
@@ -60,16 +62,18 @@ h1 {
     background-color: #006A50;
     color: #ffffff;
     font-size: 10px;
-    margin: 6px;
-    padding: 6px;
+    padding: 8px;
     border: 1px solid #006A50;
-    border-radius: 4%;
+    border-radius: 6px;
 }
 #hero-image {
     max-width: 40%;
 }
+
 /* Pillar Section */
-.pillars-section
+.pillars-section {
+    margin-top: 16px;
+}
 .pillar-container {
     display: flex;
     justify-content: space-between;
@@ -96,3 +100,46 @@ h1 {
     font-size: 14px;
     color: #0e0e0e;
 }
+
+    /* Vision Section */
+    .vision-section {
+        margin-top: 16px;
+    }
+    .vision-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .vision {
+        width: 22%;
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    .vision img {
+        max-width: 40px;
+        margin-bottom: 10px;
+    }
+    .vision h4 {
+        font-size: 18px;
+        color: #0E0E0E;
+        margin-bottom: 10px;
+    }
+    .vision p {
+        font-size: 14px;
+        color: #0e0e0e;
+    }
+    .vision button {
+        color: #ffffff;
+        border-radius: 4px;
+        padding: 8px;
+    }
+    .digital-transformation {
+        background-color: rgba(84, 144, 245, 0.2);
+    }
+    .digital-transformation button {
+        background-color: #5490F5;
+        border: 1px solid #5490F5;
+    }
