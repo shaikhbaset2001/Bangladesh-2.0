@@ -294,10 +294,8 @@
         display: inline;
     }
     footer ul li a img {
-        width: 30px;
-        height: 30px;
-        filter: brightness(0) invert(1);
-        transition: transform 0.3s;
+        width: 25px;
+        height: 25px;
     }
     footer ul li a img:hover {
         transform: scale(1.2);
