@@ -13,10 +13,10 @@
 
         /* Header */
     header {
-        height: 30%;
+        height: 25%;
     }
     nav {
-        height: 12%;
+        height: 10%;
         display: flex;
         justify-content: space-between;
         margin-bottom: 12px;
@@ -76,7 +76,7 @@
 
         /* Main */
     h2 {
-        margin-bottom: 10px;
+        margin-bottom: 14px;
         margin-top: 8px;
     }
 
@@ -172,52 +172,87 @@
         border: 1px solid rgba(255, 194, 57, 1);
     }
 
-        /* Quote Section */
-    .quote {
-        margin-top: 16px;
-        padding: 26px 6px;
-        border: 1px solid rgba(255, 255, 255, 1);
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 1);
-        background-image: url(assets/quote-bg.png);
-        background-repeat: no-repeat;
-    }
-    .quote q {
-        font-size: 18px;
-        color: rgba(14, 14, 14, 0.8);
-        margin: 8px;
-    }
-    .quote h6 {
-        font-size: 24px;
-    }
-
         /* News Section */
     .news-section p {
-        color: rgba(14, 14, 14, 0.7);
+        margin-bottom: 16px;
         font-size: small;
-    }
-    .news-card {
-        display: flex;
-        justify-content: space-between;
-    }
-    .img-sect, .article-sect {
-        width: 40%;
-        height: 60%;
-    }
-    .img-sect img {
-        border-radius: 8px;
+        color: rgba(14, 14, 14, 0.7);
     }
     .news-container {
-        margin: 12px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .news-card {
+        display: flex;
+        gap: 15px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        padding: 16px;
+        align-items: center;
+    }
+
+    .img-sect {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-sect img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .article-sect {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .article-sect h3 {
+        font-size: 18px;
+        color: #0E0E0E;
+        margin-bottom: 5px;
+    }
+
+    .article-sect img {
+        width: 80px;
+        height: 30px;
+
+    }
+
+    .article-sect p {
+        font-size: 14px;
+        color: rgba(14, 14, 14, 0.7);
+        line-height: 1.5;
+    }
+
+    .article-sect #time {
+        font-size: 12px;
+        color: rgba(14, 14, 14, 0.5);
+    }
+
+    .article-sect button {
+        background-color: #006A50;
+        color: white;
+        width: 20%;
+        padding: 10px 4px;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
     }
 
             /* Donate Section */
     .donate-section {
-        background-color: #ffffff;
         padding: 20px;
         margin-top: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         text-align: center;
     }
     .donate-section h2 {
@@ -236,15 +271,23 @@
         list-style-type: none;
     }
     .amount li {
-        background-color: #006A50;
-        color: #fff;
+        font-weight: bold;
+        background-color: #FFF;
+        color: rgba(14, 14, 14, 0.8);
         padding: 10px 20px;
+        border: 1px solid rgba(213, 214, 216, 1);
         border-radius: 5px;
         cursor: pointer;
         transition: all 0.3s ease;
     }
+    #selected {
+        background-color: rgba(198, 228, 214, 1);
+    }
+    #selected:hover {
+        background-color: #246c59;
+    }
     .amount li:hover {
-        background-color: #004d39;
+        background-color: #246c59;
     }
     .other-amount input {
         text-align: center;
@@ -265,7 +308,7 @@
         transition: all 0.3s ease;
     }
     .donate-section button:hover {
-        background-color: #004d39;
+        background-color: rgba(198, 228, 214, 1);
     }
     
             /* Footer */
@@ -279,11 +322,12 @@
     }
     footer h3 {
         margin-bottom: 10px;
+        color: rgba(14, 14, 14, 1);
     }
     footer hr {
         margin: 10px auto;
         width: 50%;
-        border: 1px solid #555;
+        border: 1px solid rgba(14, 14, 14, 0.1);
     }
     footer ul {
         display: flex;
@@ -295,8 +339,8 @@
         display: inline;
     }
     footer ul li a img {
-        width: 25px;
-        height: 25px;
+        width: 15px;
+        height: 15px;
     }
     footer ul li a img:hover {
         transform: scale(1.2);
