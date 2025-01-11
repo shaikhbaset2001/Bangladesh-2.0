@@ -13,10 +13,10 @@
 
         /* Header */
     header {
-        height: 40%;
+        height: 30%;
     }
     nav {
-        height: 10%;
+        height: 8%;
         display: flex;
         justify-content: space-between;
         margin-bottom: 12px;
@@ -166,4 +166,23 @@
     .modern-infrastructure button {
         background-color: rgba(255, 194, 57, 1);
         border: 1px solid rgba(255, 194, 57, 1);
+    }
+
+        /* Quote Section */
+    .quote {
+        margin-top: 16px;
+        padding: 26px 6px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 1);
+        background-image: url(assets/quote-bg.png);
+        background-repeat: no-repeat;
+    }
+    .quote q {
+        font-size: 18px;
+        color: rgba(14, 14, 14, 0.8);
+        margin: 8px;
+    }
+    .quote h6 {
+        font-size: 24px;
     }
